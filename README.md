@@ -27,7 +27,6 @@ Blind Spot does **not** make the decision for you or rank options. Instead, it e
 | **Frontend** | React 18, TypeScript, Vite 6, Tailwind CSS 3 | Modern, responsive, accessible decision-reflection UI |
 | **Backend** | Python 3.14, FastAPI, Pydantic v2 | High-performance, schema-validated asynchronous API |
 | **AI Engine** | Google Gemini (`google-genai` SDK) | 2-Stage pipeline: Extractor stage & Challenger stage |
-| **Testing** | Pytest, TestClient | Comprehensive test suite covering validation, guardrails, and security |
 | **Deployment** | Vercel (Frontend), Render (Backend) | Production-ready stateless cloud architecture |
 
 ---
@@ -205,16 +204,9 @@ See [`SECURITY.md`](file:///d:/MERN_PRACTICE/Hack@SKill/SECURITY.md) for full do
 
 ---
 
-## Running Automated Tests
+## Frontend Build & Verification
 
-Run the full pytest suite from the project root:
-
-```bash
-# Run all 80 unit, integration, and security tests
-pytest -v
-```
-
-Frontend build and type verification:
+Frontend production build and type checking:
 ```bash
 cd frontend
 npm run build
